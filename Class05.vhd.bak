@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Class05 is
+	port(
+		s, r, enable: in std_logic;
+		latchLed: out std_logic;
+		seg1, seg0: out std_logic_vector(6 downto 0));
+end class05;

@@ -1,0 +1,30 @@
+|Class05
+s => nq.IN0
+r => q.IN0
+enable => q.IN1
+enable => nq.IN1
+latchLed <= latchLed.DB_MAX_OUTPUT_PORT_TYPE
+seg1[0] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+seg1[1] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+seg1[2] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+seg1[3] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+seg1[4] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+seg1[5] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+seg1[6] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+seg0[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg0[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg0[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg0[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg0[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg0[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg0[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+clear => digit1[0].ACLR
+clear => digit1[1].ACLR
+clear => digit1[2].ACLR
+clear => digit1[3].ACLR
+clear => digit0[0].ACLR
+clear => digit0[1].ACLR
+clear => digit0[2].ACLR
+clear => digit0[3].ACLR
+
+
